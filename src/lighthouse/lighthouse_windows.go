@@ -13,12 +13,13 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"github.com/praetorian-inc/goffloader/src/memory"
-	"golang.org/x/sys/windows"
 	"strconv"
 	"strings"
 	"unicode/utf16"
 	"unsafe"
+
+	"github.com/bloodimooni/goffloader/src/memory"
+	"golang.org/x/sys/windows"
 )
 
 func GetCoffOutputForChannel(channel chan<- interface{}) func(int, uintptr, int) uintptr {
