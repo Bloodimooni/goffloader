@@ -3,8 +3,9 @@ package main
 import (
 	_ "embed"
 	"fmt"
-	"github.com/praetorian-inc/goffloader/src/coff"
-	"github.com/praetorian-inc/goffloader/src/lighthouse"
+
+	"github.com/bloodimooni/goffloader/src/coff"
+	"github.com/bloodimooni/goffloader/src/lighthouse"
 )
 
 //go:embed whoami.x64.o
