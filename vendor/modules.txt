@@ -1,0 +1,8 @@
+# github.com/RIscRIpt/pecoff v0.0.0-20200923152459-a332238caa87
+## explicit
+github.com/RIscRIpt/pecoff
+github.com/RIscRIpt/pecoff/binutil
+github.com/RIscRIpt/pecoff/windef
+# golang.org/x/sys v0.22.0
+## explicit; go 1.18
+golang.org/x/sys/windows
